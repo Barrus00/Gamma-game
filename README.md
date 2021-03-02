@@ -43,9 +43,9 @@ To launch the game, use command ```./gamma``` in the directory you used command 
 ### Batch mode
 To play the game in batch mode, type command:```B width height players areas``` where width, height, players and areas should be replaced with respective numbers. For example, command ```B 10 20 2 5``` will create a game in batch mode, with 10x20 board, 2 players and 5 maximum areas owned by one player. Then, you can play the game using the following commands: 
   
-```m player x y``` – tries to perform a move by player with number player on field with coordinates (x, y). Prints 1 if succeeded and 0 otherwise.
+```m player x y``` – tries to perform a move by specified player on field with coordinates (x, y). Prints 1 if succeeded and 0 otherwise.
 
-```g player x y``` – tries to perform a golden move by player with number player on field with coordinates (x, y). Prints 1 if succeeded and 0 otherwise.
+```g player x y``` – tries to perform a golden move by specified player on field with coordinates (x, y). Prints 1 if succeeded and 0 otherwise.
 
 ```b player``` – prints the number of fields taken by specified player.
 
